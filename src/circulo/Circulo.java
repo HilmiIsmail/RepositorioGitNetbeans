@@ -35,9 +35,9 @@ public class Circulo {
 	System.out.printf("El valor del área es %f\n",area);
     }
    
-    public void longitudCirculo(double r) {
+    public void longitudCirculo(double radio) {
         double longitud;
-        longitud = (2 * PI) * r;
+        longitud = (2 * PI) * radio;
         System.out.println("El area del circulo es: " + longitud);
     }
 }
